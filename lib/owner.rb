@@ -1,4 +1,6 @@
 class Owner
-  # code goes here
-
- end
+  attr_accessor 
+  def initialize(name)
+    @name = name
+  end
+end
